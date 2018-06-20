@@ -32,7 +32,7 @@ public class RequestLoggingFilter implements Filter {
 			String headerValue = req.getHeader(headerName);
 			System.out.println(":" + headerValue);
 		}*/
-        System.out.println("*************************** doFilter CALLED");
+        System.out.println("*************************** doFilter CALLED.");
 		chain.doFilter(request, response);
 	}
 
